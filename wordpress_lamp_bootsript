@@ -2,7 +2,7 @@
 yum install httpd php php-mysql -y
 amazon-linux-extras install -y php7.2
 cd /var/www/html
-wget https://wordpress.org/wordpress-5.4.1.tar.gz
+wget https://wordpress.org/wordpress-5.4.1.tar.gz    // need to change the wordpress new link
 tar -xzf wordpress-5.4.1.tar.gz
 cp -r wordpress/* /var/www/html/
 rm -rf wordpress
